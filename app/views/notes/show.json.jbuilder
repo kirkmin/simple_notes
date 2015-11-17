@@ -1,0 +1,1 @@
+json.extract! @note, :id, :name, :time, :body, :created_at, :updated_at

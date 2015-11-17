@@ -1,0 +1,24 @@
+<h1>Note</h1>
+
+<form>
+  <fieldset>
+    <div>
+      <label for="name">Title</label>
+        <input id="name" name="name" type="text" value='<%= note.escape('name') %>'>
+    </div>
+
+    <div>
+      <label for="time">Date</label>
+        <input id="time" name="time" type="text" value='<%= note.escape('time') %>'>
+    </div>
+
+    <div>
+      <label for="body">Notes</label>
+        <input id="body" name="body" type="text" value='<%= note.escape('body') %>'>
+    </div>
+
+
+    <button class="submit">Submit</button>
+    <a href='#/'>Back to Index</a>
+  </fieldset>
+</form>

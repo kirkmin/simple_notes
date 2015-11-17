@@ -1,0 +1,13 @@
+<h1>Index</h1>
+
+<ul class='notes'>
+	<% notes.each(function (note) { %>
+		<li>
+			<a href="#/<%= note.id %>">
+				<%= note.attributes.name %>
+			</a>
+		</li>
+	<% }); %>
+</ul>
+
+<a href="#/new">New</a>
